@@ -1,0 +1,26 @@
+How to implement Transparent ToolBar ::
+First You have to add a library for implementing this .
+then Sync your project ...
+
+After that ... in Styles file add a Custom theme
+
+make the style parent NoActionBar (This is important)
+and also make your AppTheme NoActionBar
+DarkActionBar is a default value you have to change it to NoActionBar
+
+----> See The difference ???
+Now , Work with your  XML file .
+Add AppBarLayout
+include your toolbar Layout .
+
+and that's all what you need to make your toolbar transparent 
+but if you want your appbar to have some padding on top . 
+then add another layout as parent of your appbarlayout and then add margine to your
+AppBarLayout
+
+So , here is our transparent Toolbar . if you ran it on your phone you will see the 
+actual result ..
+
+
+and do not use |  android:fitsSystemWindows="true" | in your XML 
+Thank you ...
